@@ -1,0 +1,114 @@
+body {
+	background: #363539;
+	font-family: 'Lato', sans-serif;
+	color: #c5c5c5;
+	padding-top: 40px;
+	overflow-x: hidden;
+}
+
+#palettes {
+	background: url('../img/palettes.png') no-repeat;
+	width: 294px;
+	height: 60px;
+	margin: auto;
+}
+
+#title {
+	font-size: 28px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#title>.your {
+	color: #a74d8f;
+}
+
+#title>.node {
+	color: #60a3a7;
+}
+
+#title>.file {
+	color: #e0d251;
+}
+
+#title>.system {
+	color: #c1653e;
+}
+
+#title>.reader {
+	color: #c2c2c2;
+}
+
+.dash.landing {
+	background: #00b2b2;
+}
+
+.dash.file {
+	background: #e0d251;
+}
+
+.icon-files {
+	width: 134px;
+	height: 136px;
+	background: url('../img/icon-files.png') no-repeat;
+	margin: auto;
+}
+
+.summary {
+	display: table;
+	margin: auto;
+}
+
+.summary {
+	color: #00b2b2;
+}
+
+.summary span {
+	color: #ffffff;
+	width: 134px;
+	height: 136px;
+	margin: auto;
+	text-align: center;
+	line-height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 72px;
+	font-weight: 300;
+}
+
+.dash .omega {
+	padding: 60px 0;
+}
+
+.icon-file {
+	background: url('../img/icon-file.png') no-repeat;
+	width: 37px;
+	height: 43px;
+	margin-left: 24px;
+	margin-top: 12px;
+}
+
+.file-item {
+	font-weight: 400;
+	font-size: 12px;
+	color: #00b2b2;
+	background: #e0d251;
+	text-align: center;
+	display: table;
+}
+
+.file-description {
+	display: table-cell;
+	vertical-align: middle;
+	height: 43px;
+	margin-left: 24px;
+	margin-top: 12px;
+}
+
+.file-item:hover {
+	background: transparent;
+	color: #c2c2c2;
+}
+
