@@ -1,0 +1,11 @@
+{
+    "name": "node-fs-reader",
+    "version": "0.0.1",
+    "dependencies": {
+        "jquery": "~1.10.2",
+        "requirejs": "~2.1.9",
+        "angular": "~1.2.7",
+        "angular-route": "~1.2.7",
+        "angularAMD": "~0.1.0"
+    }
+}
