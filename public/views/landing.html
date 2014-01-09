@@ -1,0 +1,30 @@
+<div class="dash landing">
+	<div class="container_8">
+		<div class="grid_4 omega">
+			<p class="icon-files"></p>
+		</div>
+		<div class="grid_4 omega">
+			<div class="summary">
+				<span>
+					{{ files.length }}
+				</span>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="container_8">
+	<a href="#file/{{ file.id }}" ng-repeat="file in files" class="grid_8 alpha file-item">
+		<div class="grid_1 omega">
+			<p class="icon-file"></p>
+		</div>
+		<div class="grid_7 alpha info file-description">
+			<strong>ID: </strong><span>{{ file.id }}</span>
+			<br/>
+			<strong>Title: </strong><span>{{ file.title  }}</span>
+			<br/>
+			<strong>Size: </strong><span>{{ file.size }}</span>
+		</div>
+	</a>
+	<div class="clear"></div>
+</div>

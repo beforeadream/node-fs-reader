@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<meta name="author" content="Valery Lyatsevich" />
+	<meta name="copyright" content="Licensed under GPL and MIT." />
+	<meta name="description" content="Task for C/MIND" />
+	<title>
+		Your Node File System Reader
+	</title>
+	<link rel="stylesheet" href="js/vendors/adapt/assets/css/master.css" />
+	<noscript>
+		<link rel="stylesheet" href="js/vendors/adapt/assets/css/mobile.min.css" />
+	</noscript>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css"/>
+	<script src="js/vendors/requirejs/require.js"></script>
+	<script src="js/init.js"></script>
+	<script>
+		requirejs(["dpd", "adapt"]);
+	</script>
+</head>
+<body>
+<div class="container_12">
+	<div class="prefix_2 grid_8">
+		<div id="palettes"></div>
+		<div id="title">
+			<span class="your">Your</span>
+			<span class="node">Node</span>
+			<span class="file">File</span>
+			<span class="system">System</span>
+			<span class="reader">Reader</span>
+		</div>
+		<div ng-view></div>
+	</div>
+	<div class="clear"></div>
+</div>
+<script>
+	var ADAPT_CONFIG = {
+		path: 'js/vendors/adapt/assets/css/',
+		dynamic: true,
+		range: [
+			'0px    to 760px  = mobile.min.css',
+			'760px  to 980px  = 720.min.css',
+			'980px  to 1280px = 960.min.css',
+			'1280px to 1600px = 1200.min.css',
+			'1600px to 1940px = 1560.min.css',
+			'1940px to 2540px = 1920.min.css',
+			'2540px           = 2520.min.css'
+		]
+	};
+</script>
+</body>
+</html>
