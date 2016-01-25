@@ -1,0 +1,20 @@
+{
+  "name": "node-fs-reader",
+  "version": "1.0.0",
+  "description": "Small application designed as job interview test",
+  "main": "index.js",
+  "dependencies": {
+    "dpd": "0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://beforeadream@bitbucket.org/beforeadream/node-fs-reader.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/beforeadream/node-fs-reader#readme"
+}

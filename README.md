@@ -1,86 +1,35 @@
-# node-fs-reader
+# Your Node File System Reader
+Small application designed as job interview test
 
-## How to deploy app on Windows [Works 100%]
+![](public/img/cover.jpg)
 
-```
-Download and install http://nodejs.org/
-```
-
-```
-Download and install http://deployd.com/download.html
-```
-
-```
-npm install bower -g
+## Installation
+```JavaScript
+npm i
+bower i
 ```
 
-```
-cd node-fs-reader
-```
-```
-bower install
-```
-
-```
+## Usage
+```JavaScript
 dpd -d
 ```
 
-## How to deploy app on Ubuntu
+## Contributing
 
-```
-apt-get update && apt-get upgrade
-```
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
-```
-sudo apt-get install python-software-properties python g++ make
-```
+## History
 
-```
-sudo add-apt-repository ppa:chris-lea/node.js
-```
+TODO: Write history
 
-```
-sudo apt-get update
-```
+## Credits
 
-```
-sudo apt-get install nodejs
-```
+TODO: Write credits
 
-Check that you have the $NODE_PATH
+## License
 
-```
-echo $NODE_PATH
-```
-
-If there is no - Add this line to your ~/.bashrc or ~/.profile
-
-```
-export NODE_PATH=$NODE_PATH:/usr/lib/node_modules/
-```
-
-```
-git clone https://beforeadream@bitbucket.org/beforeadream/node-fs-reader.git
-```
-
-```
-npm install deployd -g
-```
-
-```
-npm install bower -g
-```
-
-```
-cd node-fs-reader
-```
-
-```
-bower install
-```
-
-```
-dpd -d
-```
-
-It should automatically open `dashboard` on `http://localhost:2403`
+MIT © [Valery Lyatsevich](http://lyatsevich.com)

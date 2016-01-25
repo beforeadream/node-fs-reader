@@ -2,3 +2,4 @@
 /.dpd
 /data
 /public/js/vendors
+/node_modules/dpd
